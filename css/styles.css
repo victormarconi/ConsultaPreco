@@ -1,0 +1,29 @@
+body{
+	
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+.div-login{
+	
+	width: 100%;
+	max-width: 350px;	
+}
+.logo{
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.logo img {
+
+	width: 30%;
+	height: auto;
+}
+.reservado{
+	text-align: center;
+	margin-top: 20px;
+	font-size: 12px;
+	color: grey
+}

@@ -1,0 +1,99 @@
+
+body {
+  margin: 0;
+  height: 0;
+  background: #000;
+  overflow: hidden;
+}
+
+figure { 
+  width: 100%; 
+  min-width: 320px; 
+  margin:0 auto;
+  height: 100%;
+}
+video {
+  width: 100%;
+  height: auto;
+}
+
+
+#leitor { 
+  font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+  font-weight:100; 
+  background: rgba(0,0,0,0.3);
+  color: white;
+  padding: 2rem;
+  margin:2rem;
+  float: right;
+  font-size: 1.2rem;
+  position: absolute;
+  bottom: 0;
+}
+
+@font-face {
+
+ font-family: Identidad;
+ src: url('../font/Identidad-ExtraBold.otf');
+}
+
+#resultado {
+  background-image: url("../images/background.png");
+  width: 100%;
+  height: 100vh; /* 100% da altura da janela do navegador */
+  font-family: DensiaSans;
+  position: absolute;
+  text-align: center;
+  background-size: cover; /* faz a imagem cobrir toda a div */
+  background-position: center center; /* centraliza a imagem */
+  background-repeat: no-repeat; /* evita que a imagem se repita */
+  display: flex; /* ativa o Flexbox */
+  flex-direction: row; /* organiza os itens na horizontal */
+  justify-content: space-between; /* separa o conteúdo ao máximo */
+  align-items: center; /* centraliza os itens verticalmente */
+  position: relative;
+  z-index: 1000;
+}
+
+p {
+  font-size: 5em;
+  margin-top: -160px;
+  margin-right: 12px;
+  margin-left: 970px;
+  color: red;
+  font-family: Identidad;
+  word-wrap: break-word;
+  position: absolute;
+  order: 2;
+}
+
+h1 {
+  font-size: 14em;
+  color: gold;
+  margin-top: 0;
+  margin-left: 160px;
+  font-family: Identidad;
+
+}
+
+
+#logopreco img{
+  width: 30%
+}
+
+
+h2 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-top: 0;
+  letter-spacing: .3rem;
+}
+
+#barras{
+  background-color: transparent;
+  border: none;
+  cursor: none;
+  color: white;
+  outline: 0;
+}
+

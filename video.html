@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/video.css">
+	<title></title>
+
+</head>
+<body>
+<div id="resultado" style="display: none"></div>
+<figure>
+	<video id="bgvid" playsinline autoplay muted loop >
+		<source src="mp4/video.mp4" type="video/mp4">
+	</video>
+</figure>
+<div id="leitor">
+	<h2>Passe o produto no leitor</h2>
+	<input type="text" id="barras" maxlength="13" autofocus onkeyup="buscar(this.value)" />
+</div>
+</body>
+<script>
+	$( document ).ready(function() {
+		$("#barras").focus();
+	});
+</script>
+<script type="text/javascript" src="js/ajax.js"></script>
+<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+</html>
